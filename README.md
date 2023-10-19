@@ -1,11 +1,11 @@
 # BMI-Calculator-CZ
 Velmi jednoduchá kalkulačka pro výpočet Vašeho BMI (CZ)
 
-![App Screenshot](screenshot.png)
+![App Screenshot](img/Screenshot_Main.png)
 
 ## Description
 
-This Android app is a simple BMI (Body Mass Index) calculator created as a school project. It allows users to calculate their BMI based on their weight, height, and gender (Male or Female).
+This Android app is a simple BMI (Body Mass Index) calculator created as a school and Udacity project. It allows users to calculate their BMI based on their weight, height, and gender (Male or Female).
 
 ## Features
 
@@ -17,7 +17,7 @@ This Android app is a simple BMI (Body Mass Index) calculator created as a schoo
 ## Technologies Used
 
 - Kotlin
-- Android Studio
+- Android Studio Giraffe
 
 ## How to Use
 
@@ -28,12 +28,12 @@ This Android app is a simple BMI (Body Mass Index) calculator created as a schoo
 
 ## Screenshots
 
-![Screenshot 1](screenshot1.png)
-![Screenshot 2](screenshot2.png)
+![Screenshot 1](img/Screenshot_Default.png)
+![Screenshot 2](img/Screenshot_Activity.png)
 
 ## Project Status
 
-This project is a part of a school assignment and serves as a demonstration of Android app development skills.
+This project is a part of of my learning from Udacity and serves as a demonstration of Android app development skills.
 
 ### To-Do List
 
