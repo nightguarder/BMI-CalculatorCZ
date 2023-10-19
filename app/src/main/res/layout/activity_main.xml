@@ -116,18 +116,50 @@
         android:id="@+id/vysledek_output"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="248dp"
+        android:layout_marginTop="119dp"
+        android:layout_marginBottom="149dp"
         android:text="BMI"
         android:textAlignment="center"
-        android:textAllCaps="true"
+        android:textAllCaps="false"
         android:textSize="34sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/buttonClear"
+        app:layout_constraintBottom_toTopOf="@+id/buttonCalculate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/radioGroupGender"
+        app:layout_constraintVertical_bias="0.363" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonClear"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp"
+        android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonCalculate"
-        app:layout_constraintVertical_bias="0.792" />
+        app:layout_constraintTop_toTopOf="@+id/vaha_input"> <!-- Set orientation to horizontal -->
+
+        <RadioButton
+            android:id="@+id/radioButtonMen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:checked="true"
+            android:text="Muž"
+            tools:layout_editor_absoluteX="146dp"
+            tools:layout_editor_absoluteY="244dp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonWomen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="Žena" />
+
+    </RadioGroup>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
