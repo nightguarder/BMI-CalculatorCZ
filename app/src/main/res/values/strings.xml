@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BMI calculate</string>
+    <string name="weight_input">0</string>
+    <string name="height_input">0</string>
+    <string name="result">0</string>
+    <string name="TextVyska">Vyska cm</string>
+    <string name="TextVaha">Vaha Kg</string>
+    <string name="title_activity_bmicalculate">BMICalculate</string>
+</resources>

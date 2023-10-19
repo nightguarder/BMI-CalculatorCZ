@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BMI Kalkulátor</string>
+    <string name="weight_input">Váha</string>
+    <string name="height_input">Výška</string>
+    <string name="result">Výsledek</string>
+    <string name="TextVyska">Výška v cm</string>
+    <string name="TextVaha">Váha v cm</string>
+    <string name="title_activity_bmicalculate">Vypočítej BMI</string>
+
+</resources>
