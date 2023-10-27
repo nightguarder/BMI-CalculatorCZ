@@ -45,4 +45,4 @@ This project is a part of of my learning from Udacity and serves as a demonstrat
 
 ## License
 
-This project is open-source and available under the [MIT License](LICENSE).
+This project is open-source and you are free to use this code with refence to @nightguarder.
